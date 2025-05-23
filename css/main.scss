@@ -51,3 +51,12 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+// Styles for Rijksmuseum search page
+.result-item {
+  margin-bottom: 20px;
+}
+.result-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

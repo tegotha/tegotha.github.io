@@ -1,0 +1,19 @@
+---
+layout: default
+title: Rijksmuseum Search
+---
+
+<h1 class="page-heading">Rijksmuseum Search</h1>
+<div id="search-app">
+  <form id="search-form">
+    <label for="api-key">API Key:</label>
+    <input type="text" id="api-key" required placeholder="Enter your API key">
+    <label for="query">Query:</label>
+    <input type="text" id="query" required placeholder="Search term">
+    <button type="submit">Search</button>
+  </form>
+  <div id="results"></div>
+</div>
+
+<script src="{{ '/js/rijksmuseum-search.js' | prepend: site.baseurl }}"></script>
+
